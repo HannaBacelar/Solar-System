@@ -1,3 +1,129 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/26181343094559.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  color: white;
+  font-size: 25px;
+  margin: 25px;
   text-align: center;
+}
+
+.subtitulo {
+  border-radius: 100px;
+  box-shadow: inset 0 0 4px 4px rgb(182, 182, 226);
+  color: white;
+  font-size: 35px;
+  text-align: center;
+
+}
+
+
+.planets {
+  color: white;
+  display: flex;
+  font-size: 25px;
+  margin-top: 10px;
+  padding: 25px;
+  text-align: center;
+
+}
+
+.planet-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.planet-card:hover img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transform: rotate(100deg);
+}
+
+.planet-card:nth-child( 1 ) {
+  width: 85px;
+}
+
+
+.planet-card:nth-child( 2 ) {
+  width: 115px;
+}
+
+.planet-card:nth-child( 3 ) {
+  width: 135px;
+}
+
+.planet-card:nth-child( 4 ) {
+  width: 105px;
+}
+
+.planet-card:nth-child( 5 ) {
+  width: 230px;
+}
+
+.planet-card:nth-child( 6 ) {
+  width: 215px;
+}
+
+.planet-card:nth-child( 7 ) {
+  width: 175px;
+}
+
+.planet-card:nth-child( 8 ) {
+  width: 155px;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.missions-card {
+  background-color: rgb(34, 34, 94);
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 3px 5px 7px rgb(128, 128, 185);
+  color: white;
+  height: 120px;
+  line-height: 1.2;
+  margin: 14px;
+  opacity: 0.8;
+  padding: 25px;
+  text-align: center;
+  width: 280px;
+}
+
+.missions-card:hover {
+  background-color: rgb(125, 125, 238);
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 3px 5px 7px rgb(196, 196, 206);
+  color: white;
+  height: 120px;
+  margin: 14px;
+  opacity: 1;
+  width: 280px;
+}
+
+footer {
+  background-color: rgb(136, 136, 221);
+  color: rgb(248, 248, 248);
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
 }
