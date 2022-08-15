@@ -7,7 +7,7 @@
 - React.js
 - HTML 
 - CSS 
-- Ultilizar Props
+- Props
 - Criar múltiplos componentes a partir de um array
 
 
